@@ -49,3 +49,14 @@ body {
   height: 485px;
 }
 
+.sedona {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: uppercase;
+}
+
+.sedona-text{
+  text-align: center;
+}
