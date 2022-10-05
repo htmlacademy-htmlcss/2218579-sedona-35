@@ -27,6 +27,9 @@ body {
   line-height: 36px;
   color: #ffffff;
   background-color: #82b3d3;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .navigation-link {
@@ -128,4 +131,15 @@ body {
   height: 415px;
   text-align: center;
   background-repeat: no-repeat;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact-number {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
 }
