@@ -40,7 +40,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 .picture {
@@ -72,6 +72,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .advantages-item-town {
@@ -90,4 +91,25 @@ body {
 
 .advantages-item-food {
   background-color: #ffffff;
+}
+
+.interest {
+  text-align: center;
+}
+
+.interest-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.interest-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
 }
