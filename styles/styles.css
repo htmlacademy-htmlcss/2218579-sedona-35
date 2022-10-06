@@ -32,6 +32,23 @@ body {
   text-transform: uppercase;
 }
 
+.button-apply {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -142,4 +159,35 @@ body {
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+}
+
+/*Catalog*/
+.catalog-hotels-filter {
+  background-image: url("../images/catalog-page/background-filter.png");
+  color: #ffffff;
+  background-size: cover;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
 }
