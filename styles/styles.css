@@ -144,6 +144,7 @@ body {
 /*Поиск гостиницы в Седоне*/
 .interest {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .interest-title {
@@ -163,6 +164,7 @@ body {
   text-transform: uppercase;
 }
 
+/*Рассылка*/
 .newsletter {
   color: #ffffff;
   background-image: url("../images/background-newsletter.png");
@@ -170,6 +172,10 @@ body {
   height: 415px;
   text-align: center;
   background-repeat: no-repeat;
+}
+
+.main-footer{
+  background-color: #ffffff;
 }
 
 .footer-contact {
