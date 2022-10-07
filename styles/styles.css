@@ -85,12 +85,17 @@ body {
   text-transform: uppercase;
 }
 
-.picture {
-  background-image: url("../images/background-сanyon.jpg");
+/*Добро пожаловать в Седону*/
+.welcom-sedona {
+  background-image: url("../images/background-сanyon.jpg"), url("../images/white-background.svg");
   width: 1200px;
   height: 485px;
+  background-color: 	#808080;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
+/*Описание Седоны*/
 .sedona {
   font-size: 30px;
   line-height: 36px;
