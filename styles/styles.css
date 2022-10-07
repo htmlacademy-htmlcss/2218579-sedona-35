@@ -321,3 +321,10 @@ background-color: #ffffff;
   background-color: #ffffff;
   font-weight: 400;
 }
+
+/*Рассылка*/
+.newsletter-catalog {
+  background-image: none;
+  background-color: #ffffff;
+  color: #000000;
+}
