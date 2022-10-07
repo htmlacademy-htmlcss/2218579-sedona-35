@@ -108,7 +108,8 @@ body {
   text-align: center;
 }
 
-.advantages-list {
+/*Преимущества*/
+.advantages {
   font-size: 18px;
   line-height: 21px;
   background-color: rgba(131, 179, 211, 0.12);
@@ -140,6 +141,7 @@ body {
   background-color: #ffffff;
 }
 
+/*Поиск гостиницы в Седоне*/
 .interest {
   text-align: center;
 }
