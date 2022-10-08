@@ -304,7 +304,7 @@ background-color: #ffffff;
 
 /*Пагинация*/
 .pagination-link {
-  font-style: 20px;
+  font-size: 20px;
   line-height: 36px;
   color: #ffffff;
   background-color: #82b3d3;
@@ -319,7 +319,7 @@ background-color: #ffffff;
 }
 
 .pagination-other {
-  font-style: 22px;
+  font-size: 22px;
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
