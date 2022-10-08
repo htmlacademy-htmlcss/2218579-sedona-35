@@ -290,6 +290,10 @@ background-color: #ffffff;
   text-decoration: none;
 }
 
+.hotel-chosen {
+  background-color: #7db54f;
+}
+
 .hotel-top-card {
   font-style: 16px;
   line-height: 20px;
