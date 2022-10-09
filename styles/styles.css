@@ -17,9 +17,51 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
+  font-weight: 400;
   line-height: 26px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   color: #000000;
+}
+
+.newsletter-button {
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-apply {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hotel-card-button-add {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*<Шапка*/
+.main-header{
+  background-color: #ffffff;
 }
 
 .navigation-link {
@@ -40,13 +82,34 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
-.picture {
+/*Добро пожаловать в Седону*/
+.welcom-sedona {
   background-image: url("../images/background-сanyon.jpg");
   width: 1200px;
   height: 485px;
+  background-color: 	#808080;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+  
+.welcom-sedona::after {
+  content: "";
+  background-image: url("../images/white-background.svg");
+  position: absolute;
+  width: 1200px;
+  height: 57px;
+  left: 0;
+  top: 430px;
+}
+
+/*Описание Седоны*/
+.description-sedona {
+background-color: #ffffff;
 }
 
 .sedona {
@@ -54,9 +117,230 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 .sedona-text{
   text-align: center;
+}
+
+/*Преимущества*/
+.advantages {
+  font-size: 18px;
+  line-height: 21px;
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-item-town {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-item-road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-brige {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-item-food {
+  background-color: #ffffff;
+}
+
+/*Поиск гостиницы в Седоне*/
+.interest {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.interest-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.interest-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*Рассылка*/
+.newsletter {
+  color: #ffffff;
+  background-image: url("../images/background-newsletter.png");
+  width: 1200px;
+  height: 415px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+/*Подвал*/
+.main-footer{
+  background-color: #ffffff;
+}
+
+/*Номер телефона*/
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact-number {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Catalog*/
+.main-current {
+  background-color: #ffffff;
+}
+
+/*Хлебные крошки*/
+.catalog-hotels-filter {
+  background-image: url("../images/catalog-page/background-filter.png");
+  color: #ffffff;
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+/*Фильтер гостинец*/
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+/*Каталог гостинец*/
+.number-hotels {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.button-table {
+  color: #000000;
+  text-decoration: none;
+}
+
+.button-slideshow {
+  color: #000000;
+  text-decoration: none;
+}
+
+.button-list {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Карточки гостинец*/
+.hotel-card-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hotel-card-text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-card-text-value {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.hotel-card-button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hotel-chosen {
+  background-color: #7db54f;
+}
+
+.hotel-top-card {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/*Пагинация*/
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pagination-choose {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.pagination-other {
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: 400;
+}
+
+/*Рассылка*/
+.newsletter-catalog {
+  background-image: none;
+  background-color: #ffffff;
+  color: #000000;
 }
