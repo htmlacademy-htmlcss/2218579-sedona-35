@@ -87,12 +87,24 @@ body {
 
 /*Добро пожаловать в Седону*/
 .welcom-sedona {
-  background-image: url("../images/background-сanyon.jpg"), url("../images/white-background.svg");
+  background-image: url("../images/background-сanyon.jpg");
   width: 1200px;
   height: 485px;
   background-color: 	#808080;
   background-repeat: no-repeat;
   text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+  
+.welcom-sedona::after {
+  content: "";
+  background-image: url("../images/white-background.svg");
+  position: absolute;
+  width: 1200px;
+  height: 57px;
+  left: 0;
+  top: 430px;
 }
 
 /*Описание Седоны*/
