@@ -37,6 +37,11 @@ body {
   flex-grow: 1;
 }
 
+.page-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
 .newsletter-button {
   font-size: 20px;
   line-height: 36px;
