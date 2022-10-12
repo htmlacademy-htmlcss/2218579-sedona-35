@@ -330,11 +330,25 @@ outline: 5px solid rgb(182, 181, 179);
 /*Подвал*/
 .main-footer{
   background-color: #ffffff;
+  width: 1200px;
+  height: 120px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-social {
+  width: 164px;
+  height: 40px;
+  padding: 45px 0 35px 70px;
 }
 
 /*Номер телефона*/
 .footer-contact {
   text-align: center;
+  width: 331px;
+  height: 40px;
+  padding: 45px 236px 35px;
 }
 
 .footer-contact-number {
