@@ -299,11 +299,31 @@ outline: 5px solid rgb(182, 181, 179);
 /*Рассылка*/
 .newsletter {
   color: #ffffff;
-  background-image: url("../images/background-newsletter.png");
+  background-image: url("../images/background-newsletter.jpg");
   width: 1200px;
   height: 415px;
   text-align: center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 96px 398px 20px;
+}
+
+.newsletter-text {
+  margin: 0;
+  padding: 0 363px 54px;
+}
+
+.newsletter-form {
+  padding: 0 258px 104px;
 }
 
 /*Подвал*/
