@@ -264,6 +264,8 @@ outline: 5px solid rgb(182, 181, 179);
 .interest {
   text-align: center;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .interest-title {
@@ -271,6 +273,13 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 96px 451px 20px;
+  margin: 0;
+}
+
+.interest-description {
+  margin: 0;
+  padding: 0 304px 62px;
 }
 
 .interest-button {
@@ -281,6 +290,10 @@ outline: 5px solid rgb(182, 181, 179);
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.container-button {
+  padding: 0 412px 96px;
 }
 
 /*Рассылка*/
