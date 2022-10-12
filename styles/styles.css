@@ -280,6 +280,7 @@ outline: 5px solid rgb(182, 181, 179);
 .interest-description {
   margin: 0;
   padding: 0 304px 62px;
+  color: #333333;
 }
 
 .interest-button {
