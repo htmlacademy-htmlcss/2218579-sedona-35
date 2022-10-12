@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  min-height: 100%
+  min-height: 100%;
   /*временно*/
   outline: 5px solid rgba(255, 99, 78, 0.5);
 }
@@ -40,6 +40,19 @@ body {
 .page-container {
   margin: 0 auto;
   width: 1200px;
+}
+ /*Временно*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }
 
 .newsletter-button {
@@ -156,11 +169,16 @@ body {
   height: 57px;
   left: 0;
   top: 430px;
+  /*временно*/
+  outline: 5px solid rgb(250, 237, 49);
 }
 
 /*Описание Седоны*/
 .description-sedona {
 background-color: #ffffff;
+height: 282px;
+/*временно*/
+outline: 5px solid rgb(236, 39, 210);
 }
 
 .sedona {
@@ -169,10 +187,18 @@ background-color: #ffffff;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  padding: 69px 290px 25px;
+  margin: 0;
+  /*временно*/
+outline: 5px solid rgb(33, 245, 44);
 }
 
 .sedona-text{
   text-align: center;
+  margin: 0;
+  padding: 0 274px 90px 275px;
+  /*временно*/
+outline: 5px solid rgb(255, 198, 11);
 }
 
 /*Преимущества*/
@@ -181,6 +207,22 @@ background-color: #ffffff;
   line-height: 21px;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
+  /*временно*/
+outline: 5px solid rgb(7, 6, 4);
+}
+
+.advantages-list{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /*временно*/
+outline: 5px solid rgb(255, 22, 22);
+}
+
+.advantages-item {
+  width: 400px;
+  height: 384px;
 }
 
 .advantages-title {
@@ -188,24 +230,34 @@ background-color: #ffffff;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+  /*временно*/
+outline: 5px solid rgb(182, 181, 179);
 }
 
 .advantages-item-town {
   color: #ffffff;
   background-color: #82b3d3;
+  width: 400px;
+  height: 384px;
 }
 
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  height: 384px;
 }
 
 .advantages-item-brige {
   color: #ffffff;
   background-color: #82b3d3;
+  width: 400px;
+  height: 384;
 }
 
 .advantages-item-food {
   background-color: #ffffff;
+  width: 400px;
+  height: 384px;
 }
 
 /*Поиск гостиницы в Седоне*/
