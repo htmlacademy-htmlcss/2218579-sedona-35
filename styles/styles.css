@@ -419,6 +419,13 @@ outline: 5px solid rgb(182, 181, 179);
 }
 
 /*Каталог гостинец*/
+.catalog-hotels {
+  display: flex;
+  width: 1060px;
+  padding: 50px 70px;
+  justify-content: space-between;
+}
+
 .number-hotels {
   font-size: 30px;
   line-height: 36px;
@@ -446,6 +453,13 @@ outline: 5px solid rgb(182, 181, 179);
 }
 
 /*Карточки гостинец*/
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1060px;
+  padding: 0 70px 40px;
+}
+
 .hotel-card-link {
   font-size: 24px;
   line-height: 28px;
