@@ -378,6 +378,7 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 78px;
   font-weight: 700;
   margin: 0;
+  width: 494px;
 }
 
 .breadcrumb {
@@ -395,6 +396,14 @@ outline: 5px solid rgb(182, 181, 179);
 .catalog-filter {
   display: flex;
 
+}
+
+.catalog-filter-group{
+  width: 151px;
+}
+
+.catalog-сost {
+  width: 288px;
 }
 
 .catalog-filter-title {
