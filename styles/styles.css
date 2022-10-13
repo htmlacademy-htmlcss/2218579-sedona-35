@@ -293,7 +293,7 @@ outline: 5px solid rgb(182, 181, 179);
   text-transform: uppercase;
 }
 
-.container-button {
+.container-link {
   padding: 0 412px 96px;
 }
 
@@ -390,6 +390,11 @@ outline: 5px solid rgb(182, 181, 179);
 }
 
 /*Фильтер гостинец*/
+.catalog-filter {
+  display: flex;
+
+}
+
 .catalog-filter-title {
   font-size: 20px;
   line-height: 24px;
