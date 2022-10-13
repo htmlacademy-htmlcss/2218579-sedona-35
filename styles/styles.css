@@ -361,6 +361,8 @@ outline: 5px solid rgb(182, 181, 179);
 /*Catalog*/
 .main-current {
   background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /*Хлебные крошки*/
