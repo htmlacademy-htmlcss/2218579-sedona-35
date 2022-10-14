@@ -101,7 +101,7 @@ body {
 }
 
 .main-header-logo {
-  padding-left: 70px;
+  padding: 0 28px 0 70px;
    /*временно*/
    outline: 5px solid rgba(125, 78, 255, 0.973);
 }
@@ -117,14 +117,25 @@ body {
   width: 432px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   /*временно*/
   outline: 5px solid rgba(233, 47, 47, 0.863);
+}
+
+.navigation-list .navigation-user {
+  min-width: 44px;
+  min-height: 64px;
+
 }
 
 .navigation-user {
   max-width: 295px;
   margin-left: auto;
   margin-right: 70px;
+  justify-content: flex-end;
   /*временно*/
   outline: 5px solid rgba(20, 20, 20, 0.5);
 }
@@ -137,6 +148,10 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
+  padding: 20px 16px;
+  display: block;
+  /*временно*/
+  outline: 5px solid rgb(235, 255, 58);
 }
 
 .navigation-link-button {
@@ -148,6 +163,9 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  display: block;
+  padding: 8px 34px;
+  margin-left: 20px;
 }
 
 /*Добро пожаловать в Седону*/
