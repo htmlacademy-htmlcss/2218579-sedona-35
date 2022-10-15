@@ -393,20 +393,36 @@ outline: 5px solid rgb(182, 181, 179);
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  /*временно*/
+  outline: 5px solid rgba(125, 78, 255, 0.973);
 }
 
 .footer-social {
   width: 164px;
   height: 40px;
   padding: 45px 0 35px 70px;
+  /*временно*/
+  outline: 5px solid rgba(65, 248, 248, 0.973);
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+  width: 142px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  /*временно*/
+  outline: 5px solid rgba(96, 248, 65, 0.973);
 }
 
 /*Номер телефона*/
 .footer-contact {
   text-align: center;
-  width: 331px;
-  height: 40px;
   padding: 45px 236px 35px;
+  display: flex;
+  /*временно*/
+  outline: 5px solid rgba(248, 47, 198, 0.973);
 }
 
 .footer-contact-number {
@@ -414,6 +430,14 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+  width: 331px;
+  height: 40px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
+}
+
+.logo-html-academy {
+  padding: 49px 70px 39px 0;
 }
 
 /*Catalog*/
