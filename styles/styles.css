@@ -416,6 +416,13 @@ outline: 5px solid rgb(182, 181, 179);
   outline: 5px solid rgba(96, 248, 65, 0.973);
 }
 
+.footer-social-item {
+  width: 48px;
+  height: 40px;
+  /*временно*/
+  outline: 5px solid rgba(248, 65, 65, 0.973);
+}
+
 /*Номер телефона*/
 .footer-contact {
   text-align: center;
