@@ -458,8 +458,14 @@ outline: 5px solid rgb(182, 181, 179);
 .catalog-hotels-filter {
   background-image: url("../images/catalog-page/background-filter.png");
   color: #ffffff;
- background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 35px 70px 70px;
+  background-color: #82b3d3;
+}
+
+.inner-header {
+  padding-bottom: 40px;
 }
 
 .inner-header-title {
@@ -468,11 +474,20 @@ outline: 5px solid rgb(182, 181, 179);
   font-weight: 700;
   margin: 0;
   width: 494px;
+  padding-bottom: 8px;
 }
 
 .breadcrumb {
   display: flex;
-  width: 114px;
+  min-width: 114px;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.breadcrumb-item-icon {
+  padding-right: 29px;
 }
 
 .breadcrumbs-link {
