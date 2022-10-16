@@ -534,6 +534,7 @@ outline: 5px solid rgb(182, 181, 179);
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
 }
 
 .select-control {
@@ -541,19 +542,40 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 21px;
 }
 
+.container-form {
+  display: flex;
+  width: 160px;
+  height: 48px;
+  justify-content:space-between;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
+}
+
 .button-table {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
 }
 
 .button-slideshow {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
 }
 
 .button-list {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(116, 116, 117, 0.973);
 }
 
 /*Карточки гостинец*/
