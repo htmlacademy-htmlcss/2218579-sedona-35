@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
- /*Временно*/
+ 
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -55,6 +55,7 @@ body {
   overflow: hidden;
 }
 
+/*Кнопки*/
 .newsletter-button {
   font-size: 20px;
   line-height: 36px;
@@ -96,11 +97,10 @@ body {
   background-color: #ffffff;
   width: 1200px;
   margin: 0 auto;
-
 }
 
 .main-header-logo {
-  padding-left: 70px;
+  padding: 0 28px 0 70px;
    /*временно*/
    outline: 5px solid rgba(125, 78, 255, 0.973);
 }
@@ -116,14 +116,24 @@ body {
   width: 432px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   /*временно*/
   outline: 5px solid rgba(233, 47, 47, 0.863);
+}
+
+.navigation-list .navigation-user {
+  min-width: 44px;
+  min-height: 64px;
 }
 
 .navigation-user {
   max-width: 295px;
   margin-left: auto;
   margin-right: 70px;
+  justify-content: flex-end;
   /*временно*/
   outline: 5px solid rgba(20, 20, 20, 0.5);
 }
@@ -136,6 +146,10 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
+  padding: 20px 16px;
+  display: block;
+  /*временно*/
+  outline: 5px solid rgb(235, 255, 58);
 }
 
 .navigation-link-button {
@@ -147,18 +161,20 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  display: block;
+  padding: 8px 34px;
+  margin-left: 20px;
 }
 
 /*Добро пожаловать в Седону*/
 .welcom-sedona {
   background-image: url("../images/background-сanyon.jpg");
-  width: 1200px;
-  height: 485px;
   background-color: 	#808080;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 81px;
 }
   
 .welcom-sedona::after {
@@ -168,7 +184,7 @@ body {
   width: 1200px;
   height: 57px;
   left: 0;
-  top: 430px;
+  top: 428px;
   /*временно*/
   outline: 5px solid rgb(250, 237, 49);
 }
@@ -222,7 +238,11 @@ outline: 5px solid rgb(255, 22, 22);
 
 .advantages-item {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages-title {
@@ -230,34 +250,72 @@ outline: 5px solid rgb(255, 22, 22);
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 30px;
   /*временно*/
 outline: 5px solid rgb(182, 181, 179);
+}
+
+.advantages-description {
+  margin: 0;
+  padding-top: 30px;
 }
 
 .advantages-item-town {
   color: #ffffff;
   background-color: #82b3d3;
   width: 400px;
+  min-height: 384px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-container {
+  width: 230px;
+}
+
+.advantages-item-picture {
+  list-style-type: none;
+  display: block;
   height: 384px;
 }
 
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
   width: 400px;
-  height: 384px;
+  min-height: 384px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages-item-brige {
   color: #ffffff;
   background-color: #82b3d3;
   width: 400px;
-  height: 384;
+  min-height: 384;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages-item-food {
   background-color: #ffffff;
   width: 400px;
-  height: 384px;
+  min-height: 384px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 72px;
+  width: 75px;
 }
 
 /*Поиск гостиницы в Седоне*/
@@ -335,20 +393,43 @@ outline: 5px solid rgb(182, 181, 179);
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  /*временно*/
+  outline: 5px solid rgba(125, 78, 255, 0.973);
 }
 
 .footer-social {
   width: 164px;
   height: 40px;
   padding: 45px 0 35px 70px;
+  /*временно*/
+  outline: 5px solid rgba(65, 248, 248, 0.973);
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+  width: 142px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  /*временно*/
+  outline: 5px solid rgba(96, 248, 65, 0.973);
+}
+
+.footer-social-item {
+  width: 48px;
+  height: 40px;
+  /*временно*/
+  outline: 5px solid rgba(248, 65, 65, 0.973);
 }
 
 /*Номер телефона*/
 .footer-contact {
   text-align: center;
-  width: 331px;
-  height: 40px;
   padding: 45px 236px 35px;
+  display: flex;
+  /*временно*/
+  outline: 5px solid rgba(248, 47, 198, 0.973);
 }
 
 .footer-contact-number {
@@ -356,6 +437,14 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+  width: 331px;
+  height: 40px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
+}
+
+.logo-html-academy {
+  padding: 49px 70px 39px 0;
 }
 
 /*Catalog*/
@@ -369,8 +458,14 @@ outline: 5px solid rgb(182, 181, 179);
 .catalog-hotels-filter {
   background-image: url("../images/catalog-page/background-filter.png");
   color: #ffffff;
- background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 35px 70px 70px;
+  background-color: #82b3d3;
+}
+
+.inner-header {
+  padding-bottom: 40px;
 }
 
 .inner-header-title {
@@ -379,11 +474,20 @@ outline: 5px solid rgb(182, 181, 179);
   font-weight: 700;
   margin: 0;
   width: 494px;
+  padding-bottom: 8px;
 }
 
 .breadcrumb {
   display: flex;
-  width: 114px;
+  min-width: 114px;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.breadcrumb-item-icon {
+  padding-right: 29px;
 }
 
 .breadcrumbs-link {
@@ -430,6 +534,7 @@ outline: 5px solid rgb(182, 181, 179);
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
 }
 
 .select-control {
@@ -437,27 +542,52 @@ outline: 5px solid rgb(182, 181, 179);
   line-height: 21px;
 }
 
+.container-form {
+  display: flex;
+  width: 160px;
+  height: 48px;
+  justify-content:space-between;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
+}
+
 .button-table {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
 }
 
 .button-slideshow {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(128, 128, 129, 0.973);
 }
 
 .button-list {
   color: #000000;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  /*временно*/
+  outline: 5px solid rgba(116, 116, 117, 0.973);
 }
 
-/*Карточки гостинец*/
+/*Карточки гостиниц*/
 .card {
   display: flex;
   flex-wrap: wrap;
   width: 1060px;
   padding: 0 70px 40px;
+}
+
+.hotel-list {
+  list-style-type: none;
 }
 
 .hotel-card-link {
@@ -502,7 +632,24 @@ outline: 5px solid rgb(182, 181, 179);
 }
 
 /*Пагинация*/
+.card-pagination {
+  width: 1060px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 11px 24px;
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
