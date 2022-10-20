@@ -662,8 +662,9 @@ outline: 5px solid rgb(182, 181, 179);
   width: 1060px;
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0 70px;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .pagination-item:not(:last-child) {
@@ -675,7 +676,7 @@ outline: 5px solid rgb(182, 181, 179);
   box-sizing: border-box;
   width: 60px;
   height: 60px;
-  padding: 11px 24px;
+  padding: 11px 0 13px;
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
@@ -683,6 +684,7 @@ outline: 5px solid rgb(182, 181, 179);
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  border-radius: 4px;
 }
 
 .pagination-choose {
