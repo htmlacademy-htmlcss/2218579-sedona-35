@@ -90,6 +90,8 @@ body {
   background-color: #82b3d3;
   font-weight: 700;
   text-align: center;
+  border-radius: 4px;
+  border: none;
 }
 
 /*<Шапка*/
@@ -526,7 +528,7 @@ outline: 5px solid rgb(182, 181, 179);
 .catalog-hotels {
   display: flex;
   width: 1060px;
-  padding: 50px 70px;
+  padding: 50px 70px 40px;
   justify-content: space-between;
 }
 
@@ -580,14 +582,29 @@ outline: 5px solid rgb(182, 181, 179);
 
 /*Карточки гостиниц*/
 .card {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   width: 1060px;
-  padding: 0 70px 40px;
+  padding: 0 70px 80px;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
 }
 
 .hotel-list {
   list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 16px 20px;
+}
+
+.hotel-card-title {
+  margin: 0;
+  padding: 16px 0;
 }
 
 .hotel-card-link {
@@ -617,6 +634,8 @@ outline: 5px solid rgb(182, 181, 179);
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+  padding: 8px 26px;
+  border-radius: 4px;
 }
 
 .hotel-chosen {
