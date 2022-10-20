@@ -581,7 +581,7 @@ outline: 5px solid rgb(182, 181, 179);
 }
 
 /*Карточки гостиниц*/
-.card {
+.wrapper-card {
   display: grid;
   width: 1060px;
   padding: 0 70px 80px;
