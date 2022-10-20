@@ -642,12 +642,19 @@ outline: 5px solid rgb(182, 181, 179);
   background-color: #7db54f;
 }
 
+.hotel-card-star {
+  margin: 0;
+}
+
 .hotel-top-card {
   font-size: 16px;
   line-height: 20px;
   color: #333333;
   background-color: #f2f2f2;
   text-align: center;
+  margin: 0;
+  padding: 9px 22px 8px 23px;
+  border-radius: 4px;
 }
 
 /*Пагинация*/
