@@ -105,15 +105,11 @@ body {
   padding: 0 30px 0 70px;
   position: absolute;
   z-index: 1;
-   /*временно*/
-   outline: 5px solid rgba(125, 78, 255, 0.973);
 }
 
 .main-navigation {
   width: 1200px;
   display: flex;
-  /*временно*/
-  outline: 5px solid rgba(158, 255, 78, 0.973);
 }
 
 .navigation-list {
@@ -124,8 +120,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /*временно*/
-  outline: 5px solid rgba(233, 47, 47, 0.863);
 }
 
 .navigation-list .navigation-user {
@@ -134,12 +128,10 @@ body {
 }
 
 .navigation-user {
-  max-width: 295px;
+  min-width: 295px;
   margin-left: auto;
   margin-right: 70px;
   justify-content: flex-end;
-  /*временно*/
-  outline: 5px solid rgba(20, 20, 20, 0.5);
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
@@ -164,8 +156,6 @@ body {
   text-transform: capitalize;
   padding: 20px 16px;
   display: block;
-  /*временно*/
-  outline: 5px solid rgb(235, 255, 58);
 }
 
 .navigation-current::before {
@@ -279,8 +269,69 @@ outline: 5px solid rgb(255, 22, 22);
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 30px;
-  /*временно*/
-outline: 5px solid rgb(182, 181, 179);
+  position: relative;
+}
+
+.advantages-title::before {
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  left: 85px;
+  bottom: 0;
+  right: 85px;
+}
+
+.title-town::before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.title-bridge::before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.title-icon {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 182px 0 30px;
+  position: relative;
+}
+
+.title-home::before {
+  content: "";
+  background-image: url(../images/advantages/icon-home.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 85px;
+  width: 75px;
+  height: 72px;
+}
+
+.title-food::before {
+  content: "";
+  background-image: url(../images/advantages/icon-food.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 85px;
+  width: 74px;
+  height: 70px;
+  right: 78px;
+}
+
+.title-souvenir::before {
+  content: "";
+  background-image: url(../images/advantages/icon-souvenir.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 85px;
+  width: 64px;
+  height: 76px;
+  right: 83px;
 }
 
 .advantages-description {
@@ -319,7 +370,7 @@ outline: 5px solid rgb(182, 181, 179);
   align-items: center;
 }
 
-.advantages-item-brige {
+.advantages-item-bridge {
   color: #ffffff;
   background-color: #82b3d3;
   width: 400px;
@@ -340,9 +391,11 @@ outline: 5px solid rgb(182, 181, 179);
   align-items: center;
 }
 
-.icon {
-  height: 72px;
-  width: 75px;
+.advantages-title title-home::before {
+  content: "";
+  background-image: url(../images/advantages/icon-home.svg);
+  position: absolute;
+  
 }
 
 /*Поиск гостиницы в Седоне*/
