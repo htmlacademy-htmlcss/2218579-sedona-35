@@ -202,16 +202,12 @@ body {
   height: 57px;
   left: 0;
   top: 428px;
-  /*временно*/
-  outline: 5px solid rgb(250, 237, 49);
 }
 
 /*Описание Седоны*/
 .description-sedona {
 background-color: #ffffff;
 height: 282px;
-/*временно*/
-outline: 5px solid rgb(236, 39, 210);
 }
 
 .sedona {
@@ -222,16 +218,12 @@ outline: 5px solid rgb(236, 39, 210);
   text-transform: uppercase;
   padding: 69px 290px 25px;
   margin: 0;
-  /*временно*/
-outline: 5px solid rgb(33, 245, 44);
 }
 
 .sedona-text{
   text-align: center;
   margin: 0;
   padding: 0 274px 90px 275px;
-  /*временно*/
-outline: 5px solid rgb(255, 198, 11);
 }
 
 /*Преимущества*/
@@ -240,8 +232,6 @@ outline: 5px solid rgb(255, 198, 11);
   line-height: 21px;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
-  /*временно*/
-outline: 5px solid rgb(7, 6, 4);
 }
 
 .advantages-list{
@@ -249,8 +239,6 @@ outline: 5px solid rgb(7, 6, 4);
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  /*временно*/
-outline: 5px solid rgb(255, 22, 22);
 }
 
 .advantages-item {
