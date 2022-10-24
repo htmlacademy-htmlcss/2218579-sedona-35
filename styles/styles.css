@@ -468,16 +468,12 @@ height: 282px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  /*временно*/
-  outline: 5px solid rgba(125, 78, 255, 0.973);
 }
 
 .footer-social {
   width: 164px;
   height: 40px;
   padding: 45px 0 35px 70px;
-  /*временно*/
-  outline: 5px solid rgba(65, 248, 248, 0.973);
 }
 
 .footer-social-list {
@@ -487,15 +483,11 @@ height: 282px;
   min-height: 40px;
   margin: 0;
   padding: 0;
-  /*временно*/
-  outline: 5px solid rgba(96, 248, 65, 0.973);
 }
 
 .footer-social-item {
   width: 48px;
   height: 40px;
-  /*временно*/
-  outline: 5px solid rgba(248, 65, 65, 0.973);
 }
 
 /*Номер телефона*/
@@ -503,8 +495,6 @@ height: 282px;
   text-align: center;
   padding: 45px 236px 35px;
   display: flex;
-  /*временно*/
-  outline: 5px solid rgba(248, 47, 198, 0.973);
 }
 
 .footer-contact-number {
@@ -514,8 +504,6 @@ height: 282px;
   text-decoration: none;
   width: 331px;
   height: 40px;
-  /*временно*/
-  outline: 5px solid rgba(128, 128, 129, 0.973);
 }
 
 .logo-html-academy {
