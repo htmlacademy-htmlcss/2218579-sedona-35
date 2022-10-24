@@ -517,6 +517,16 @@ height: 282px;
   margin: 0 auto;
 }
 
+.navigation-link-current::before {
+  height: 2px;
+  background-color: #756257;
+  width: 93px;
+  content: "";
+  position: absolute;
+  top: 63px;
+  z-index: 1;
+}
+
 /*Хлебные крошки*/
 .catalog-hotels-filter {
   background-image: url("../images/catalog-page/background-filter.png");
