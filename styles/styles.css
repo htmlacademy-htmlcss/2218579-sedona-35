@@ -517,6 +517,7 @@ height: 282px;
   margin: 0 auto;
 }
 
+/*Шапка*/
 .navigation-link-current::before {
   height: 2px;
   background-color: #756257;
@@ -550,23 +551,34 @@ height: 282px;
   padding-bottom: 8px;
 }
 
+.breadcrumb .breadcrumb-item:nth-child(1) {
+  background-image: url(../images/catalog-page/breadcrumb/icon-breadcrumb-home.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  background-position: center;
+}
+
 .breadcrumb {
   display: flex;
   min-width: 114px;
   flex-wrap: wrap;
+  align-items: center;
   padding: 0;
   list-style-type: none;
   margin: 0;
-}
-
-.breadcrumb-item-icon {
-  padding-right: 29px;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
+  display: block;
+  background-image: url(../images/catalog-page/breadcrumb/icon-breadcrumb-arrow.svg);
+  background-repeat: no-repeat;
+  padding-left: 26px;
+  background-size: 6px 10px;
+  background-position: center left 10px;
 }
 
 /*Фильтер гостинец*/
