@@ -581,24 +581,41 @@ height: 282px;
   background-position: center left 10px;
 }
 
-/*Фильтер гостинец*/
+/*Фильтр гостинец*/
 .catalog-filter {
   display: flex;
+}
 
+.catalog-filter-group {
+  margin: 0;
+  padding: 0 70px 0 0;
+  border: none;
 }
 
 .catalog-filter-group{
   width: 151px;
 }
 
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.catalog-filter-item:not(:last-child) {
+  padding-bottom: 16px;
+}
+
 .catalog-сost {
   width: 288px;
+  padding-left: 70px;
 }
 
 .catalog-filter-title {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  padding-bottom: 32px;
 }
 
 .control {
