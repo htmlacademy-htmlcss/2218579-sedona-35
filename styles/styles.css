@@ -439,6 +439,20 @@ height: 282px;
   border-radius: 4px;
 }
 
+.interest-button:hover {
+  background-color: #615048;
+}
+
+.interest-button:focus-visible {
+  background-color: #615048;
+  outline: none;
+}
+
+.interest-button:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .container-link {
   padding: 0 412px 96px;
 }
