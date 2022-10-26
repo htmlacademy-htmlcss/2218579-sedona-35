@@ -581,7 +581,7 @@ height: 282px;
   background-position: center left 10px;
 }
 
-/*Фильтр гостинец*/
+/*Фильтр гостиниц*/
 .catalog-filter {
   display: flex;
 }
@@ -624,12 +624,13 @@ height: 282px;
   font-weight: 400;
 }
 
-/*Каталог гостинец*/
+/*Каталог гостиниц*/
 .catalog-hotels {
   display: flex;
   width: 1060px;
   padding: 50px 70px 40px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .number-hotels {
@@ -646,11 +647,10 @@ height: 282px;
 
 .container-form {
   display: flex;
-  width: 160px;
+  min-width: 160px;
   height: 48px;
   justify-content:space-between;
-  /*временно*/
-  outline: 5px solid rgba(128, 128, 129, 0.973);
+  gap: 8px;
 }
 
 .button-table {
@@ -658,8 +658,12 @@ height: 282px;
   text-decoration: none;
   width: 48px;
   height: 48px;
-  /*временно*/
-  outline: 5px solid rgba(128, 128, 129, 0.973);
+  border-radius: 2px;
+  border: 2px solid #000000;
+  background-image: url(../images/catalog-page/switch-button/switch-button-table.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }
 
 .button-slideshow {
@@ -667,8 +671,12 @@ height: 282px;
   text-decoration: none;
   width: 48px;
   height: 48px;
-  /*временно*/
-  outline: 5px solid rgba(128, 128, 129, 0.973);
+  border-radius: 2px;
+  border: 2px solid #e5e5e5;
+  background-image: url(../images/catalog-page/switch-button/switch-button-slideshow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }
 
 .button-list {
@@ -676,8 +684,12 @@ height: 282px;
   text-decoration: none;
   width: 48px;
   height: 48px;
-  /*временно*/
-  outline: 5px solid rgba(116, 116, 117, 0.973);
+  border-radius: 2px;
+  border: 2px solid #e5e5e5;
+  background-image: url(../images/catalog-page/switch-button/switch-button-list.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }
 
 /*Карточки гостиниц*/
