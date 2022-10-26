@@ -66,8 +66,23 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 4px;
-  
+  padding: 8px 50px;
 }
+
+.newsletter-button:hover {
+  background-color: #68a2ca;
+}
+
+.newsletter-button:focus-visible {
+  background-color: #68a2ca;
+  outline: none;
+}
+
+.newsletter-button:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 .button-apply {
   font-size: 16px;
