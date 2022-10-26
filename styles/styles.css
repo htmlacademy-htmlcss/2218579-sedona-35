@@ -190,11 +190,6 @@ body {
   background-color: #615048;
 }
 
-/* .navigation-link-button:focus {
-  background-color: #615048;
-  outline: none;
-} */
-
 .navigation-link-button:focus-visible {
   background-color: #615048;
   outline: none;
