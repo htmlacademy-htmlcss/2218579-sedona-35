@@ -620,11 +620,25 @@ height: 282px;
   color: rgba(117, 97, 87, 0.3);
 }
 
+/*Логотип HTML Academy*/
 .logo-html-academy {
   padding: 49px 70px 39px 0;
 }
 
-/*Catalog*/
+.html-academy-icon:hover {
+  fill: #756157;
+}
+
+.html-academy-icon:focus-visible {
+  fill: #756157;
+  background-color: #756157;
+}
+
+.html-academy-icon:active {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
+/*Каталог*/
 .main-current {
   background-color: #ffffff;
   width: 1200px;
