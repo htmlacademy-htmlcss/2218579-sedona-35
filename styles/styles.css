@@ -608,6 +608,18 @@ height: 282px;
   height: 40px;
 }
 
+.footer-contact-number:hover {
+  color: #756157;
+}
+
+.footer-contact-number:focus-visible {
+  color: #756157;
+}
+
+.footer-contact-number:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .logo-html-academy {
   padding: 49px 70px 39px 0;
 }
