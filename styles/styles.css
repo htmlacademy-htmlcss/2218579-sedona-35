@@ -679,14 +679,6 @@ height: 282px;
   padding-bottom: 8px;
 }
 
-.breadcrumb .breadcrumb-item:nth-child(1) {
-  background-image: url(../images/catalog-page/breadcrumb/icon-breadcrumb-home.svg);
-  background-repeat: no-repeat;
-  width: 12px;
-  height: 12px;
-  background-position: center;
-}
-
 .breadcrumb {
   display: flex;
   min-width: 114px;
@@ -697,7 +689,7 @@ height: 282px;
   margin: 0;
 }
 
-.breadcrumbs-link {
+.breadcrumb-link {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
@@ -707,6 +699,29 @@ height: 282px;
   padding-left: 26px;
   background-size: 6px 10px;
   background-position: center left 10px;
+  position: relative;
+}
+
+.breadcrumb-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  color: #ffffff;
+}
+
+.breadcrumb-icon:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumb-icon:focus-visible {
+  color: #FFFFFF;
+}
+
+.breadcrumb-icon:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /*Фильтр гостиниц*/
