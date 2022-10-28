@@ -767,6 +767,52 @@ height: 282px;
   font-weight: 400;
 }
 
+.container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.button-apply {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 50px;
+  margin-bottom: 32px;
+}
+
+.button-apply:hover {
+  background-color: #68a2ca;
+}
+
+.button-apply:focus-visible {
+  background-color: #68a2ca;
+}
+
+.button-apply:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reset {
+  border: none;
+  background-color: transparent;
+  padding: 8px 57px;
+}
+
+.button-reset:hover {
+  opacity: 0.5;
+}
+
+.button-reset:focus-visible {
+  color: #FFFFFF;
+}
+
+.button-reset:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3)
+}
+
+
 /*Каталог гостиниц*/
 .catalog-hotels {
   display: flex;
