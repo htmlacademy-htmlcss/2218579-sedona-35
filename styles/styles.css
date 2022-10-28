@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
- 
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -224,7 +224,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-  
+
 .welcom-sedona::after {
   content: "";
   background-image: url("../images/white-background.svg");
@@ -414,7 +414,6 @@ height: 282px;
   content: "";
   background-image: url(../images/advantages/icon-home.svg);
   position: absolute;
-  
 }
 
 /*Поиск гостиницы в Седоне*/
@@ -855,6 +854,21 @@ height: 282px;
   box-sizing: border-box;
 }
 
+.button-table:hover {
+  outline: 2px solid #000000;
+  border: none;
+}
+
+.button-table:focus-visible {
+  outline: 2px solid #68a2ca;
+  border: none;
+}
+
+.button-table:active {
+  outline: 2px solid #000000;
+  border: none;
+}
+
 .button-slideshow {
   color: #000000;
   text-decoration: none;
@@ -868,6 +882,22 @@ height: 282px;
   box-sizing: border-box;
 }
 
+.button-slideshow:hover {
+  outline: 2px solid #000000;
+  border: none;
+}
+
+.button-slideshow:focus-visible {
+  outline: 2px solid #68a2ca;
+  border: none;
+}
+
+.button-slideshow:active {
+  outline: 2px solid #000000;
+  border: none;
+}
+
+
 .button-list {
   color: #000000;
   text-decoration: none;
@@ -879,6 +909,21 @@ height: 282px;
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box;
+}
+
+.button-list:hover {
+  outline: 2px solid #000000;
+  border: none;
+}
+
+.button-list:focus-visible {
+  outline: 2px solid #68a2ca;
+  border: none;
+}
+
+.button-list:active {
+  outline: 2px solid #000000;
+  border: none;
 }
 
 /*Карточки гостиниц*/
