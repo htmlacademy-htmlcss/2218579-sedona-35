@@ -641,17 +641,21 @@ height: 282px;
   padding: 49px 70px 39px 0;
 }
 
+.html-academy-icon {
+  color: #000000;
+}
+
 .html-academy-icon:hover {
-  fill: #756157;
+  color: #756157;
 }
 
 .html-academy-icon:focus-visible {
-  fill: #756157;
+  color: #756157;
   background-color: #756157;
 }
 
 .html-academy-icon:active {
-  fill: rgba(117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 /*Каталог*/
