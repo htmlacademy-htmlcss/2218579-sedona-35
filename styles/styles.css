@@ -1029,8 +1029,28 @@ height: 282px;
   background-color: #7db54f;
 }
 
-.hotel-card-star {
+.hotel-rating {
   margin: 0;
+  background-image: url(../images/catalog-page/star.svg);
+  background-repeat: space;
+}
+
+.rating-star-4 {
+  width: 75px;
+  margin: 10px 0;
+  padding: 6px;
+}
+
+.rating-star-3 {
+  width: 55px;
+  margin: 10px 0;
+  padding: 6px;
+}
+
+.rating-star-2 {
+  width: 30px;
+  margin: 10px 0;
+  padding: 6px;
 }
 
 .hotel-top-card {
@@ -1042,6 +1062,7 @@ height: 282px;
   margin: 0;
   padding: 9px 22px 8px 23px;
   border-radius: 4px;
+  grid-column: 2 / 3;
 }
 
 /*Пагинация*/
