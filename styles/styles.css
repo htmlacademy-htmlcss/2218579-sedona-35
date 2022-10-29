@@ -553,56 +553,59 @@ height: 282px;
   position: absolute;
   top: 13px;
   left: 12px;
+  color: #83b3d3;
 }
 
 .telegram-icon {
   position: absolute;
   top: 12px;
   left: 15px;
+  color: #83b3d3;
 }
 
 .youtube-icon {
   position: absolute;
   top: 12px;
   left: 13px;
+  color: #83b3d3;
 }
 
 
 
 .vkontakte-icon:hover {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .vkontakte-icon:focus-visible {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .vkontakte-icon:active {
-  fill: rgba(104, 162, 202, 0.3);
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .telegram-icon:hover {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .telegram-icon:focus-visible {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .telegram-icon:active {
-  fill: rgba(104, 162, 202, 0.3);
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .youtube-icon:hover {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .youtube-icon:focus-visible {
-  fill: #68a2ca;
+  color: #68a2ca;
 }
 
 .youtube-icon:active {
-  fill: rgba(104, 162, 202, 0.3);
+  color: rgba(104, 162, 202, 0.3);
 }
 
 /*Номер телефона*/
