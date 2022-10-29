@@ -911,7 +911,6 @@ height: 282px;
   border: none;
 }
 
-
 .button-list {
   color: #000000;
   text-decoration: none;
@@ -1095,9 +1094,34 @@ height: 282px;
   border-radius: 4px;
 }
 
+.pagination-link:hover {
+  background-color: #68a2ca;
+}
+.pagination-link:focus-visible {
+  background-color: #68a2ca;
+}
+
+.pagination-link:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .pagination-choose {
   color: #000000;
   background-color: #f2f2f2;
+}
+
+.pagination-choose:hover {
+  background-color: #f2f2f2;
+}
+
+.pagination-choose:focus-visible {
+  background-color: #f2f2f2;
+}
+
+.pagination-choose:active {
+  background-color: #f2f2f2;
+  color: #000000;
 }
 
 .pagination-other {
