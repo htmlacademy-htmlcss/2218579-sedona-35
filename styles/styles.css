@@ -474,6 +474,7 @@ height: 282px;
   text-transform: uppercase;
   padding: 8px 50px;
   border-radius: 4px;
+  display: block;
 }
 
 .interest-button:hover {
@@ -534,6 +535,23 @@ height: 282px;
   width: 452px;
   border-radius: 4px 0 0 4px;
   background-color: #F2F2F2;
+}
+
+.field:hover {
+  background-color: #ffffff;
+}
+
+.field:focus-visible {
+  outline: 2px solid #e9ec09;
+}
+
+.field:active {
+  background-color: #f2f2f2;
+  outline: 2px solid #e9ec09;
+}
+
+.field:disabled {
+  background-color: #f50606fd;
 }
 
 /*Подвал*/
