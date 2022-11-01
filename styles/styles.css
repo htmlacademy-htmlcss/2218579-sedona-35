@@ -811,6 +811,94 @@ height: 282px;
   width: 151px;
 }
 
+.range-wrapper-inputs {
+  display: flex;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.range-left-label {
+  position: absolute;
+  right: 160px;
+  top: 8px;
+  padding: 0;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.range-right-label {
+  position: absolute;
+  right: 18px;
+  top: 8px;
+  padding: 0;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.range-input{
+  width: 143px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  border: none;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin-right: 2px;
+  border-radius: 4px 0 0 4px;
+}
+
+.range-input-right {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background-color: #dbb590;
+}
+
+.range-toggle:active,
+.range-toggle:focus {
+  outline: 3px solid #dbb590;
+}
+
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
