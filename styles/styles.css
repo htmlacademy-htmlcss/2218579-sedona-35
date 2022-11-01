@@ -55,6 +55,7 @@ body {
 
 /*Кнопки*/
 .newsletter-button {
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
@@ -63,7 +64,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   border: none;
-  border-radius: 4px;
+  border-radius: 0 4px 4px 0;
   padding: 8px 50px;
 }
 
@@ -522,6 +523,17 @@ height: 282px;
   padding: 0 258px 104px;
   display: flex;
   justify-content: center;
+}
+
+.field {
+  font-family: 'PT Sans' ,sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  padding: 14px 20px;
+  width: 452px;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
 }
 
 /*Подвал*/
