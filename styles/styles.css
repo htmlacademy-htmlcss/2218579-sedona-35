@@ -805,9 +805,6 @@ height: 282px;
   margin: 0;
   padding: 0 70px 0 0;
   border: none;
-}
-
-.catalog-filter-group{
   width: 151px;
 }
 
@@ -837,7 +834,7 @@ height: 282px;
 
 .range-input{
   width: 143px;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -846,6 +843,19 @@ height: 282px;
   padding: 12px 20px;
   margin-right: 2px;
   border-radius: 4px 0 0 4px;
+  background-color: #f2f2f2;
+}
+
+.range-input:hover{
+  background-color: #e6e6e6;
+}
+
+.range-input:focus-visible{
+  outline: 3px solid #82b3d3;
+}
+
+.range-input:active{
+  outline: 2px solid #000000;
 }
 
 .range-input-right {
@@ -880,18 +890,20 @@ height: 282px;
 }
 
 .range-toggle:hover {
-  background-color: #dbb590;
+  opacity: rgba(0, 0, 0, 0.25);
 }
 
-.range-toggle:active,
-.range-toggle:focus {
-  outline: 3px solid #dbb590;
+.range-toggle:focus-visible {
+  outline: 5px solid #83b3d3;
 }
 
+.range-toggle:active {
+  opacity: rgba(0, 0, 0, 0.4);
+  outline: 5px solid #83b3d3;
+}
 
 .toggle-min {
   top: -8px;
-  left: -10px;
 }
 
 .toggle-max {
@@ -938,6 +950,7 @@ height: 282px;
   border-radius: 4px;
   padding: 8px 50px;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 
 .button-apply:hover {
@@ -957,6 +970,7 @@ height: 282px;
   border: none;
   background-color: transparent;
   padding: 8px 57px;
+  cursor: pointer;
 }
 
 .button-reset:hover {
