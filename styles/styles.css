@@ -933,11 +933,87 @@ height: 282px;
   padding-bottom: 32px;
 }
 
+
+
+
 .control {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  position: relative;
+  display: block;
+  padding-left: 36px;
+  cursor: pointer;
 }
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  top: 2px;
+  left: 0;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url(../images/catalog-page/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control-input:focus-visible + .control-mark {
+  outline: 3px solid #83B3D3;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
+
+.control-input:disabled + .control-mark {
+  opacity: 0.6;
+}
+
+
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: #3F5E72;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container-button {
   display: flex;
