@@ -710,6 +710,10 @@ height: 282px;
   z-index: 2;
 }
 
+.modal-container-close {
+  display: none;
+}
+
 .modal {
   position: relative;
   margin: auto;
@@ -736,6 +740,18 @@ height: 282px;
   background-position: center;
   cursor: pointer;
   border-radius: 50%;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:focus-visible {
+  outline: 3px solid #83b3d3;
+}
+
+.modal-close-button:active {
+  opacity: 0.3;
 }
 
 .modal-title {
@@ -767,6 +783,21 @@ height: 282px;
   line-height: 24px;
   padding: 12px 40px 12px 20px;
   border-radius: 4px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.departure-date:hover {
+  background-color: #e6e6e6;
+}
+
+.departure-date:focus-visible {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.departure-date:active {
+  outline: 2px solid #000000;
 }
 
 .text-error {
@@ -792,7 +823,7 @@ height: 282px;
   justify-content: space-between;
 }
 
-.container-grown {
+.wrapper-people {
   display: flex;
   width: 247px;
   justify-content: space-between;
@@ -817,6 +848,21 @@ height: 282px;
   top: 14px;
   left: 13px;
   position: absolute;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.minus-button:hover {
+  opacity: 1;
+}
+
+.minus-button:focus-visible {
+  outline: 3px solid #82b3d3;
+  opacity: 1;
+}
+
+.minus-button:active {
+  opacity: 0.2;
 }
 
 .plus-button {
@@ -831,6 +877,21 @@ height: 282px;
   top: 14px;
   left: 73px;
   position: absolute;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.plus-button:hover {
+  opacity: 1;
+}
+
+.plus-button:focus-visible {
+  outline: 3px solid #82b3d3;
+  opacity: 1;
+}
+
+.plus-button:active {
+  opacity: 0.2;
 }
 
 .people {
@@ -839,6 +900,20 @@ height: 282px;
   font-size: 20px;
   line-height: 24px;
 }
+
+
+.tooltip {
+  position: relative;
+  border-radius: 50%;
+  background-color: #83b3d3;
+  width: 26px;
+  height: 26px;
+
+}
+
+
+
+
 
 .field-number::-webkit-outer-spin-button,
 .field-number::-webkit-inner-spin-button {
@@ -855,6 +930,38 @@ height: 282px;
   border-radius: 4px;
   background-color: #f2f2f2;
 }
+
+.find-button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 10px;
+  border: none;
+  width: 577px;
+  text-align: center;
+  min-height: 60px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  margin-top: 48px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.find-button:hover {
+  background-color: #68a2ca;
+}
+
+.find-button:focus-visible {
+  background-color: #68a2ca
+}
+
+.find-button:active {
+  background-color: #68a2ca;
+  opacity: 0.3;
+}
+
 /*Каталог*/
 .main-current {
   background-color: #ffffff;
