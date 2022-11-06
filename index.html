@@ -208,7 +208,7 @@
     </footer>
 
     <!-- Модальное окно -->
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-auth">
         <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть</span>
@@ -219,36 +219,37 @@
         <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="date">
             <span class="text-date">Дата заезда:</span>
-            <input class="departure-date" placeholder="27 апреля 2020" type="text" name="departure-date">
+            <input class="departure-date" placeholder="Укажите дату" type="text" name="departure-date" value="27 апреля 2020">
             <span class="text-error">Мы не можем отправить вас в прошлое.</span>
           </label>
           <label class="date">
             <span class="text-date">Дата выезда:</span>
-            <input class="departure-date" placeholder="1 сентября 2023" type="text" name="departure-date">
+            <input class="departure-date" placeholder="Укажите дату" type="text" name="departure-date" value="1 сентября 2023">
             <p class="text-free">На эти даты есть свободные номера. Пока есть.</p>
           </label>
 
           <div class="container-people">
-            <div class="container-grown">
-              <label class="people">Взрослые:</label>
+            <div class="wrapper-people">
+              <label class="people" for="grown">Взрослые:</label>
               <span class="box-number">
-                <button class="field-button minus-button" type="button"></button>
-                <input class="field-number" id="" name="" type="number" value="2">
-                <button class="field-button plus-button" type="button"></button>
+                <button class="minus-button" type="button"></button>
+                <input class="field-number" id="grown" name="grown" type="number" value="2">
+                <button class="plus-button" type="button"></button>
               </span>
             </div>
 
-            <div class="container-grown">
-              <label class="people">Дети:</label>
-              <span class="box-number">
-                <button class="field-button minus-button" type="button"></button>
-                <input class="field-number" id="" name="" type="number" value="2">
-                <button class="field-button plus-button" type="button"></button>
+            <div class="wrapper-people">
+
+              <label class="people" for="children">Дети:</label>
+
+              <span class="box-number" for="children">
+                <button class="minus-button" type="button"></button>
+                <input class="field-number" id="children" name="children" type="number" value="2">
+                <button class="plus-button" type="button"></button>
               </span>
             </div>
-
           </div>
-          <button>yfqnb</button>
+          <button class="find-button" type="submit">найти</button>
 
         </form>
       </div>
