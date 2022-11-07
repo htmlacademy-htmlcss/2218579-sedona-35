@@ -239,10 +239,16 @@
             </div>
 
             <div class="wrapper-people">
-
               <label class="people" for="children">Дети:</label>
-
-              <span class="box-number" for="children">
+              <div class="wrapper-tooltip">
+                <button class="tooltip" type="button" aria-labelledby="tooltip-children">
+                  <svg class="tooltip-icon" aria-hidden="true" focusable="false" width="2" height="12" viewBox="0 0 2 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h2v2H0V0zm2 12H0V3h2v9z">
+                  </svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-children">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </div>
+              <span class="box-number">
                 <button class="minus-button" type="button"></button>
                 <input class="field-number" id="children" name="children" type="number" value="2">
                 <button class="plus-button" type="button"></button>
@@ -250,7 +256,6 @@
             </div>
           </div>
           <button class="find-button" type="submit">найти</button>
-
         </form>
       </div>
     </div>
