@@ -224,7 +224,7 @@ body {
 .navigation-current::before {
   height: 2px;
   background-color: #756257;
-  width: 68px;
+  width: calc(100% - 30px);
   content: "";
   position: absolute;
   top: 63px;
