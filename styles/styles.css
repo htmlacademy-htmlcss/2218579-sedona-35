@@ -507,7 +507,7 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 0;
-  padding: 0;
+  padding: 96px 304px;
 }
 
 .interest-title {
@@ -515,14 +515,14 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 96px 451px 20px;
-  margin: 0;
+  padding: 0;
+  margin: 0 0 20px;
 }
 
 .interest-description {
-  margin: 0;
-  padding: 0 304px 62px;
+  padding: 0;
   color: #333333;
+  margin: 0 0 54px;
 }
 
 .interest-button {
@@ -536,6 +536,8 @@ body {
   padding: 8px 50px;
   border-radius: 4px;
   display: block;
+  width: 276px;
+  margin: 0 109px;
 }
 
 .interest-button:hover {
@@ -551,9 +553,9 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.container-link {
+/* .container-link {
   padding: 0 412px 96px;
-}
+} */
 
 /*Рассылка*/
 .newsletter {
