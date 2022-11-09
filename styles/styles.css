@@ -297,7 +297,7 @@ body {
 /*Добро пожаловать в Седону*/
 .welcom-sedona {
   background-image: url("../images/background-сanyon.jpg");
-  background-color: #808080;
+  background-color: #82b3d3;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
@@ -479,7 +479,7 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   width: 400px;
-  min-height: 384;
+  min-height: 384px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -1269,7 +1269,7 @@ body {
 }
 
 .range-toggle:hover {
-  opacity: rgba(0, 0, 0, 0.25);
+  opacity:  0.9;
 }
 
 .range-toggle:focus-visible {
@@ -1277,7 +1277,7 @@ body {
 }
 
 .range-toggle:active {
-  opacity: rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
   outline: 5px solid #83b3d3;
 }
 
