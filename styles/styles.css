@@ -66,6 +66,7 @@ body {
   border: none;
   border-radius: 0 4px 4px 0;
   padding: 8px 50px;
+  cursor: pointer;
 }
 
 .newsletter-button:hover {
@@ -561,6 +562,7 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #82b3d3;
 }
 
 .newsletter-title {
@@ -593,6 +595,7 @@ body {
   width: 452px;
   border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 .field:hover {
@@ -600,12 +603,12 @@ body {
 }
 
 .field:focus-visible {
-  outline: 2px solid #e9ec09;
+  outline: 2px solid #68a2ca;
 }
 
 .field:active {
   background-color: #f2f2f2;
-  outline: 2px solid #e9ec09;
+  outline: 2px solid #68a2ca;
 }
 
 .field:disabled {
