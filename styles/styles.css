@@ -67,6 +67,7 @@ body {
   border-radius: 0 4px 4px 0;
   padding: 8px 50px;
   cursor: pointer;
+  min-width: 232px;
 }
 
 .newsletter-button:hover {
@@ -82,6 +83,9 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.newsletter-button:disabled {
+  background-color: #e5e5e5;
+}
 
 .button-apply {
   font-size: 16px;
@@ -280,6 +284,8 @@ body {
   padding: 8px 34px;
   margin-left: 20px;
   border-radius: 4px;
+  min-width: 160px;
+  box-sizing: border-box;
 }
 
 .navigation-link-button:hover {
@@ -612,7 +618,7 @@ body {
 }
 
 .field:disabled {
-  background-color: #f50606fd;
+  background-color: #e5e5e5;
 }
 
 /*Подвал*/
@@ -648,6 +654,11 @@ body {
 
 .footer-social-link {
   position: relative;
+  padding: 4px 21px;
+}
+
+.footer-social-link:focus-visible {
+  outline: 2px solid #000000;
 }
 
 .vkontakte-icon {
@@ -678,10 +689,6 @@ body {
   color: #68a2ca;
 }
 
-.vkontakte-icon:focus-visible {
-  color: #68a2ca;
-}
-
 .vkontakte-icon:active {
   color: rgba(104, 162, 202, 0.3);
 }
@@ -690,19 +697,11 @@ body {
   color: #68a2ca;
 }
 
-.telegram-icon:focus-visible {
-  color: #68a2ca;
-}
-
 .telegram-icon:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
 .youtube-icon:hover {
-  color: #68a2ca;
-}
-
-.youtube-icon:focus-visible {
   color: #68a2ca;
 }
 
@@ -748,7 +747,6 @@ body {
 
 .html-academy-icon:focus-visible {
   color: #756157;
-  background-color: #756157;
 }
 
 .html-academy-icon:active {
