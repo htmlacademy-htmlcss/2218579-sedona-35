@@ -1263,7 +1263,7 @@ body {
 
 .range-input-right {
   border-radius: 0 4px 4px 0;
-  margin-left: 2px
+  margin-left: 2px;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -1294,7 +1294,7 @@ body {
 }
 
 .range-toggle:hover {
-  opacity:  0.9;
+  opacity: 0.9;
 }
 
 .range-toggle:focus-visible {
