@@ -1553,7 +1553,7 @@ body {
 .wrapper-card {
   display: grid;
   width: 1060px;
-  padding: 0 70px 80px;
+  padding: 0 70px 41px;
   grid-template-columns: repeat(3, 340px);
   gap: 20px;
 }
@@ -1680,9 +1680,10 @@ body {
   width: 1060px;
   display: flex;
   list-style-type: none;
-  padding: 0 70px;
-  margin: 0;
+  padding: 39px 0;
+  margin: 0 70px;
   flex-wrap: wrap;
+  border-top: 1px solid #e6e6e6;
 }
 
 .pagination-item:not(:last-child) {
@@ -1703,6 +1704,7 @@ body {
   text-decoration: none;
   text-align: center;
   border-radius: 4px;
+  margin-top: 2px;
 }
 
 .pagination-link:hover {
