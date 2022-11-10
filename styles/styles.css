@@ -1086,11 +1086,11 @@ body {
 .navigation-link-current::before {
   height: 2px;
   background-color: #756257;
-  width: 93px;
   content: "";
   position: absolute;
   top: 63px;
   z-index: 1;
+  width: calc(100% - 32px);
 }
 
 .return-logo:hover {
