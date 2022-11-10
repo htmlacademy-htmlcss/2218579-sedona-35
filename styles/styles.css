@@ -1736,12 +1736,18 @@ body {
   color: #000000;
 }
 
-.pagination-other {
+.pagination-dots {
   font-size: 22px;
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
-  font-weight: 400;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 18px 0 0;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
 }
 
 /*Рассылка*/
