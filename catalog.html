@@ -64,7 +64,7 @@
                 </a>
               </li>
               <li class="breadcrumb-item">
-                <a class="breadcrumb-link">Гостиницы</a>
+                <a class="breadcrumb-link breadcrumb-link-hotels">Гостиницы</a>
               </li>
             </ul>
           </header>
@@ -131,19 +131,19 @@
               <div class="range">
                 <div class="range-wrapper-inputs">
                   <label class="range-left-label" for="min-value">от</label>
-                  <input class="range-input" name="min-value" id="min-value" type="number" min="0" value="0">
+                  <input class="range-input" id="min-value" type="number" name="min-value" min="0" value="0">
                   <span class="visually-hidden">минимальное значение</span>
                   <label class="range-right-label" for="max-value">до</label>
-                  <input class="range-input range-input-right" name="max-value" id="max-value" type="number" value="9000">
+                  <input class="range-input range-input-right" id="max-value" type="number" name="max-value" value="9000">
                   <span class="visually-hidden">максимальное значение</span>
                 </div>
 
                 <div class="range-scale">
                   <div class="range-bar" style="left: 0; width: 226px">
-                    <button class="range-toggle toggle-min">
+                    <button class="range-toggle toggle-min" type="button">
                       <span class="visually-hidden">Изменить минимальную цену.</span>
                     </button>
-                    <button class="range-toggle toggle-max">
+                    <button class="range-toggle toggle-max" type="button">
                       <span class="visually-hidden">Изменить максимальную цену.</span>
                     </button>
                   </div>
