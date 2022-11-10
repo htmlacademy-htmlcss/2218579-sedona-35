@@ -114,6 +114,10 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button-apply:disabled {
+  background-color: #e5e5e5;
+}
+
 .button-reset {
   font-size: 16px;
   line-height: 20px;
@@ -137,6 +141,10 @@ body {
 .button-reset:active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reset:disabled {
+  opacity: 0.1;
 }
 
 .hotel-card-button-add {
@@ -1124,8 +1132,10 @@ body {
   line-height: 78px;
   font-weight: 700;
   margin: 0;
-  width: 494px;
   padding-bottom: 8px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .breadcrumb {
@@ -1145,17 +1155,29 @@ body {
   display: block;
   background-image: url("../images/catalog-page/breadcrumb/icon-breadcrumb-arrow.svg");
   background-repeat: no-repeat;
-  padding-left: 26px;
-  background-size: 6px 10px;
-  background-position: center left 10px;
+  padding-left: 21px;
+  background-size: 7px 19px;
+  background-position: center left 4px;
   position: relative;
+}
+
+.breadcrumb-link-hotels:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumb-link-hotels:focus-visible {
+  color: #ffffff;
+}
+
+.breadcrumb-link-hotels:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .breadcrumb-icon {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
+  right: 6px;
   left: 0;
   margin: auto;
   color: #ffffff;
@@ -1188,7 +1210,7 @@ body {
 .range-wrapper-inputs {
   display: flex;
   position: relative;
-  margin-bottom: 51px;
+  margin-bottom: 44px;
 }
 
 .range-left-label {
@@ -1218,7 +1240,6 @@ body {
   border: none;
   box-sizing: border-box;
   padding: 12px 20px;
-  margin-right: 2px;
   border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
 }
@@ -1237,6 +1258,7 @@ body {
 
 .range-input-right {
   border-radius: 0 4px 4px 0;
+  margin-left: 2px
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -1285,7 +1307,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: -10px;
+  right: -3px;
 }
 
 .catalog-filter-list {
@@ -1308,6 +1330,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   padding-bottom: 32px;
+  text-transform: capitalize;
 }
 
 .control {
