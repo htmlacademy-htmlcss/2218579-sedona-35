@@ -957,7 +957,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   top: 14px;
-  left: 73px;
+  left: 82px;
   position: absolute;
   opacity: 0.3;
   cursor: pointer;
@@ -981,6 +981,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  padding: 4px;
 }
 
 .tooltip {
@@ -1014,8 +1015,8 @@ body {
   position: absolute;
   z-index: 3;
   display: none;
-  left: 327px;
-  bottom: 47px;
+  left: 349px;
+  bottom: 26px;
   margin: 0;
   padding: 20px 22px 24px;
   width: 256px;
@@ -1025,6 +1026,7 @@ body {
   color: #ffffff;
   background-color: #333333;
   box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
+  box-sizing: border-box;
 }
 
 .tooltip-text::before {
