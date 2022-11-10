@@ -148,6 +148,7 @@ body {
 }
 
 .hotel-card-button-add {
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -170,6 +171,10 @@ body {
 .hotel-card-button-add:active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.hotel-card-button-add:disabled {
+  background-color: #e5e5e5;
 }
 
 /*<Шапка*/
@@ -1406,7 +1411,7 @@ body {
 .catalog-hotels {
   display: flex;
   width: 1060px;
-  padding: 50px 70px 40px;
+  padding: 50px 70px 42px;
   justify-content: space-between;
   align-items: center;
 }
@@ -1415,7 +1420,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  margin: 0;
+  margin: 0 144px 0 0;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -1431,6 +1437,7 @@ body {
   background-image: url("../images/catalog-page/arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  margin-right: 10px;
 }
 
 .select-control:hover {
@@ -1455,6 +1462,7 @@ body {
   height: 48px;
   justify-content: space-between;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .button-table {
@@ -1463,7 +1471,7 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 2px;
-  border: 2px solid #000000;
+  border: 2px solid #e5e5e5;
   background-image: url("../images/catalog-page/switch-button/switch-button-table.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1565,13 +1573,13 @@ body {
 
 .hotel-card-title {
   margin: 0;
-  padding: 16px 0;
-}
-
-.hotel-card-link {
+  padding: 12px 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+}
+
+.hotel-card-link {
   color: #000000;
   text-decoration: none;
 }
@@ -1664,6 +1672,7 @@ body {
   padding: 9px 22px 8px 23px;
   border-radius: 4px;
   grid-column: 2 / 3;
+  text-transform: uppercase;
 }
 
 /*Пагинация*/
