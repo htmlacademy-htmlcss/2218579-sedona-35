@@ -129,7 +129,7 @@ body {
   background-color: transparent;
   padding: 8px 57px;
   cursor: pointer;
-  min-width: 191px
+  min-width: 191px;
 }
 
 .button-reset:hover {
